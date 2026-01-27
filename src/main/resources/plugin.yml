@@ -1,0 +1,19 @@
+name: Smeetup
+version: 1.0.0
+main: org.funtown.smetup.Smeetup
+api-version: '1.21'
+authors: [Funtown]
+description: Meetup game plugin for Minecraft
+softdepend: [PlaceholderAPI]
+
+commands:
+  smeetup:
+    aliases: [sm]
+    description: Main command for Smeetup plugin
+    usage: /<command>
+    permission: smeetup.admin
+
+permissions:
+  smeetup.admin:
+    description: Access to all Smeetup commands
+    default: op
